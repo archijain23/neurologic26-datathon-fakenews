@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data files (do not commit raw CSVs)
+data/raw/
+data/processed/
+*.csv
+!instructions/*.csv
+
+# Model weights (large files)
+models/
+*.bin
+*.pt
+*.pth
+*.safetensors
+
+# Outputs
+outputs/
+!outputs/.gitkeep
+
+# Environment
+.env
+*.env
+venv/
+.venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Kaggle
+kaggle.json
